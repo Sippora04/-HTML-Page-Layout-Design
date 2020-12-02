@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<title>Flexbox Cards</title>
+<style>
+    body {
+        background-color: cadetblue;
+        color: whitesmoke;
+    }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .card {
+    flex: 0 0 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  } 
+  .card img {
+    max-width: 100%;
+  }
+  .card .text {
+    padding: 0 20px 20px;
+  }
+  .card .text > button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+  }
+  button{
+    transition: transform .4s;
+  }
+  button:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+  }
+</style>
+<body>
+<h1><center>Flexbox Cards</center></h1>
+<main class="cards">
+  <article class="card">
+    <img src="../assets/Flexbox Cards Food 1.jpg" alt="Food">
+    <div class="text">
+      <h3>Foods and nutrients</h3>
+      <p>A food is something that provides nutrients. Nutrients are substances that provide: energy for activity, growth, and all functions of the body such as breathing, digesting food, and keeping warm; materials for the growth and repair of the body, and for keeping the immune system healthy.</p>
+      <button>Know More..</button>
+    </div>
+  </article>
+  <article class="card">
+    <img src="../assets/Flexbox Cards Travel 2.jpg" alt="Travel">
+    <div class="text">
+      <h3>Planning For A Holiday Destination?</h3>
+      <p>The year 2020 is coming to an end and by now, all of us are just itching for that perfect dream holiday–a luxury that we have been deprived of, for so long, thanks to the pandemic. But fret not, if you have been looking to get away to a beautiful island for that much-awaited Christmas-New Year trip, here’s some good news for you!</p>
+      <button>Here's how</button>
+    </div>
+  </article>
+  <article class="card">
+    <img src="../assets/Flexbox Cards Farmer Protests 3.jpg" alt="Farmer protests">
+    <div class="text">
+      <h3>Farmer Protest</h3>
+      <p>The farmers' protests against the new agriculture laws entered into the seventh consecutive day on Wednesday (December 2, 2020) as peaceful sit-ins by farmers, mostly from Punjab and Haryana, continued at the Singhu and Tikri borders.</p>
+      <button>Read more</button>
+    </div>
+  </article>
+  <article class="card">
+    <img src="../assets/Flexbox Cards Education 4.jpg" alt="Education">
+    <div class="text">
+      <h3>Schools To Remain Closed Till Year End</h3>
+      <p>All schools in will remain closed till the year end to prevent the spread of coronavirus infection, as per a decision taken by the state government.</p>
+      <button>Click here for more Education News</button>
+    </div>
+  </article>
+  <article class="card">
+    <img src="../assets/Flexbox Cards Pubg 5.jpg" alt="PUBG">
+    <div class="text">
+      <h3>PUBG Mobile Comeback : Big disappointment for PUBG, no response from ministry on meeting request</h3>
+      <p>PUBG Mobile is not coming to India anytime soon. The Ministry of Electronics and Information Technology (MEITY) is yet to respond to the request of PUBG promoters for a meeting according to the sources.</p>
+      <button>Click for more detail</button>
+    </div>
+  </article>
+  <article class="card">
+    <img src="../assets/Flexbox Cards Global Warming 6.jpg" alt="PUBG">
+    <div class="text">
+      <h3>Global Warming - NASA Earth Observatory</h3>
+      <p>Global warming is the unusually rapid increase in Earth's average surface temperature over the past century primarily due to the greenhouse gases released by people burning fossil fuels.</p>
+      <button>Stop Here...</button>
+    </div>
+  </article>
+</main>
+</body>
+</html>
