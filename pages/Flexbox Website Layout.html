@@ -1,0 +1,141 @@
+<!doctype html>
+<title>Dash of Delish!</title>
+<style>
+* {
+    box-sizing: border-box; 
+  }   
+body {
+    display: flex;
+    min-height: 50vh;
+    flex-direction: row;
+    margin: 0;
+} 
+.outer-col-1 {
+    background:  #8080ff;
+    flex: 1;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 30px;
+  padding: 35px;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 50px 30px 80px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.outer-col-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+  }
+  .inner-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .inner-col {
+    flex: 4;
+  }
+  .inner-row article {
+    min-height: 60vh;
+  }
+  .aside-col {
+    margin-left: auto;
+    margin-right: auto;
+    width:550px;
+    height:1340px;
+ }
+  img {
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:550px;
+    height:350px;
+    box-shadow: 10px 10px 5px grey;
+  }
+  .inner-row aside {
+    background:  #8080ff;
+    flex: 1;
+    padding: 30px;
+  }
+  header {
+    background-image: url(../assets/food_at_right.gif);
+    background-position: right bottom;
+    background-repeat: no-repeat, repeat;
+    background-size: 10em;
+    padding: 1px;
+  }
+  .header-head {
+    text-shadow: 2px 2px 5px white;
+  }
+  header, footer {
+    padding: 1em;
+    height: 20vh;
+    color: white;
+    background-color: black; 
+ }
+  article, nav {
+    padding: 1em;
+    color: rgb(0, 0, 0);
+  }
+  aside {
+    padding: 1em;
+    color: brown;
+    height: 1300px;
+  }
+</style>
+<body>
+    <nav class="outer-col-1">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#food">Food</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About Us</a></li>
+          </ul>
+    </nav>
+    <div class="outer-col-2">
+        <header>
+          <h1 class="header-head"><center>Dash of Delish!</center></h1>
+      	</header>
+        <div class="inner-row">
+            <div class="inner-col">
+                <article>
+                    <h1><u>2 Tasty Recipes</u></h1>
+                    <h3>Tasty Recipes To Try At Home: We have curated the best of tasty recipes to try at home and relish with family and friends.</h3>
+                    <h3>1. Pancakes<h3>
+                    <img src="../assets/pancake.jpg" alt="pancake">
+                    <p>Undoubtedly the kid's most favourite breakfast option, pancakes are fluffy delights to prepare at home. Whether you like them sweet or savoury, pancakes have a room for a lot of creativity with many flavours and toppings. From maple syrup, whipped cream to fruits, there are endless options to relish a plate of scrumptious, filling and wholesome pancakes!</p>
+                    <h3>2. Upma<h3>
+                    <img src="../assets/upma.jpg" alt="upma">
+                    <p>One dish that you can savour at all times is the delicious, upma. You can call it an 'any time' dish due to its versatility to go with any course. A light and healthy snack from the South Indian cuisine, upma enjoys the versatility to be eaten in any meal from breakfast to snacks. Perfect for your kid's tiffin too, here is an upma recipe packed with the goodness of vermicelli along with urad dal and carrots, topped with peanuts.</p>
+
+                </article>
+  		        <footer><center>Privacy Policy / Feedback / About Us / Contact Us / Author</center></footer>
+            </div>
+            <aside class="aside-col">
+                    <h1><u>OUR BEST RECIPES</u></h1>
+                    <ul>
+                        <li>13 Best Vegetarian Chinese Recipes| Easy Chinese Recipes</li>
+                        <li>13 Best Vegetarian Dinner Recipes| 13 Easy Dinner Recipes</li>
+                        <li>Navratri 2020:10 Delicious Recipes Made Without Onion And Garlic</li>
+                        <li>Top 14 Veg Recipes Under 30 Minutes | Quick Veg Recipes</li>
+                        <li>13 Best Vegetarian Kebab Recipes | Easy Kebab Recipes</li>
+                    </ul>
+            </aside>
+        </div>
+    </div>
+</body> 
