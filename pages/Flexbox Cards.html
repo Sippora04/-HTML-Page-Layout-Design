@@ -29,31 +29,15 @@
     color: white;
     padding: 10px;
     width: 100%;
-    }
-    button {
-        appearance: button;
-    -webkit-writing-mode: horizontal-tb !important;
-    text-rendering: auto;
-    color: -internal-light-dark(black, white);
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-transform: none;
-    text-indent: 0px;
-    text-shadow: none;
-    display: inline-block;
-    text-align: center;
-    align-items: flex-start;
-    cursor: default;
-    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
-    box-sizing: border-box;
-    margin: 0em;
-    font: 400 13.3333px Arial;
-    padding: 1px 6px;
-    border-width: 2px;
-    border-style: outset;
-    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
-    border-image: initial;
-    }
+  }
+  button{
+    transition: transform .4s;
+  }
+  button:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+  }
 </style>
 <body>
 <h1><center>Flexbox Cards</center></h1>
@@ -96,6 +80,14 @@
       <h3>PUBG Mobile Comeback : Big disappointment for PUBG, no response from ministry on meeting request</h3>
       <p>PUBG Mobile is not coming to India anytime soon. The Ministry of Electronics and Information Technology (MEITY) is yet to respond to the request of PUBG promoters for a meeting according to the sources.</p>
       <button>Click for more detail</button>
+    </div>
+  </article>
+  <article class="card">
+    <img src="../assets/Flexbox Cards Global Warming 6.jpg" alt="PUBG">
+    <div class="text">
+      <h3>Global Warming - NASA Earth Observatory</h3>
+      <p>Global warming is the unusually rapid increase in Earth's average surface temperature over the past century primarily due to the greenhouse gases released by people burning fossil fuels.</p>
+      <button>Stop Here...</button>
     </div>
   </article>
 </main>
